@@ -1,0 +1,13 @@
+body {
+	text-align: center;
+}
+.red {
+	color: #FF0000;
+}
+.big {
+	font-size: 15em;
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+}

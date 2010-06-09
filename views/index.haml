@@ -2,13 +2,30 @@
 !!! Strict
 %html
   %head
+    %meta{:'http-equiv' => 'refresh', :content => '5'}
+    %link{:media => "all", :rel => "stylesheet", :href => "/style.css", :type => "text/css"}/
     %title
       Katch-Up
   %body
     %h1
-      %span{:class => 'red'}= @worked_hours
-      hours to
-      %em
-        katch-up
+      you should have worked
+    %span{:class => 'red big'}= @worked_hours
+    *
+    %h2
+      hours already to
+      %em{:class => 'red'}
+        katch-up 
       with monthly hours
+    %p
+      *excluding holidays
+    %hr/
+    %p
+      inutility by
+      %br/
+      %a{:href => "http://qmx.me"}
+        @qmx
+      %br/
+      %a{:href => "http://twitter.com/scalone", :title => "poor blogless soul"}
+        @scalone
+      
 
