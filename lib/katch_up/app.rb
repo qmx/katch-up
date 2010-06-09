@@ -1,10 +1,10 @@
 require 'sinatra/base'
-
+require 'haml'
 
 module KatchUp
 	class App < Sinatra::Base
 		get '/' do
-			"Hello World"
+			haml :index
 		end
 	end
 end
