@@ -10,4 +10,6 @@ rescue LoadError
   Bundler.setup
 end
 
+require 'active_support'
+require 'weekdays'
 require 'katch_up'
