@@ -1,10 +1,10 @@
 --- 
 dependencies: 
-  haml: 
+  rake: 
     group: 
     - :default
     version: ">= 0"
-  rake: 
+  haml: 
     group: 
     - :default
     version: ">= 0"
@@ -24,9 +24,15 @@ dependencies:
     group: 
     - :test
     version: ">= 0"
+  activesupport: 
+    group: 
+    - :default
+    version: ">= 0"
 specs: 
 - rake: 
     version: 0.8.7
+- activesupport: 
+    version: 2.3.8
 - bundler: 
     version: 0.9.25
 - haml: 
@@ -39,7 +45,7 @@ specs:
     version: 1.3.0
 - sinatra: 
     version: "1.0"
-hash: 7c84f8a4a85bcc5efc4155086e7bfaa29272ad0b
+hash: 3ec9e57ddef3584b99f73f06ac1989916b87b06b
 sources: 
 - Rubygems: 
     uri: http://gemcutter.org
