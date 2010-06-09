@@ -1,7 +1,7 @@
 source :gemcutter
 
 gem 'rake'
-gem 'bundler'
+gem 'bundler', '0.9.11'
 gem 'sinatra'
 
 group :test do
