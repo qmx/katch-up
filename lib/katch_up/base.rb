@@ -1,10 +1,11 @@
 module KatchUp
 	class Base
 		def expected_hours
-			172
+			weekdays(Time.now) * 8
 		end
 
-		def working_days
+		def weekdays(now = Time.now.end_of_month)
+			now.beginning_of_month.weekdays_until(now.to_date)
 		end
 	end
 end
