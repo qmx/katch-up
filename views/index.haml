@@ -8,7 +8,8 @@
   %body
     %h1
       you should have already worked
-    %span{:class => 'red big'}= @worked_hours
+    %span{:class => 'red big'}
+      = "±#{@worked_hours}"
     *
     %h2
       hours to
@@ -19,7 +20,7 @@
       *ignoring holidays - mon-fri - 8h/day
     %hr/
     %p
-      inutility by
+      useless app by
       %br/
       %a{:href => "http://qmx.me"}
         @qmx
