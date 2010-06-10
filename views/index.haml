@@ -7,9 +7,8 @@
       Katch-Up
   %body
     %h1
-      you should have already worked
-    %span{:class => 'red big'}
-      = "±#{@worked_hours}"
+      you should have already worked ±
+    %span{:class => 'red big'}=@worked_hours
     *
     %h2
       hours to
