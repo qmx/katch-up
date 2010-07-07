@@ -1,7 +1,7 @@
 source :gemcutter
 
 gem 'rake'
-gem 'bundler', '0.9.25'
+gem 'bundler', '0.9.26'
 gem 'sinatra'
 gem 'haml'
 gem 'activesupport'

@@ -27,7 +27,7 @@ dependencies:
   bundler: 
     group: 
     - :default
-    version: = 0.9.25
+    version: = 0.9.26
   rack-test: 
     group: 
     - :test
@@ -42,11 +42,11 @@ specs:
 - activesupport: 
     version: 2.3.8
 - bundler: 
-    version: 0.9.25
+    version: 0.9.26
 - haml: 
-    version: 3.0.10
+    version: 3.0.13
 - rack: 
-    version: 1.1.0
+    version: 1.2.1
 - rack-test: 
     version: 0.5.4
 - rcov: 
@@ -57,7 +57,7 @@ specs:
     version: "1.0"
 - weekdays: 
     version: "1.0"
-hash: 583d0897dbd8b02eea2fd934541f88640368ce0e
+hash: 4149a8ceedd66b697545c1aa3394c11dc30c9250
 sources: 
 - Rubygems: 
     uri: http://gemcutter.org
